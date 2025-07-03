@@ -1,0 +1,11 @@
+# Directorios
+node_modules/
+
+# Archivos de configuración
+.env
+.DS_Store
+Thumbs.db
+
+# Archivos de registro
+*.log
+npm-debug.log*
