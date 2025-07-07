@@ -37,7 +37,7 @@ class LibroController {
     }
 
     async delete(req, res, next) {
-        const ISBN = Number(req.params.ISBN);
+        const ISBN = Number(req.body.ISBN);
          validateType(ISBN);   
         try {
             const [result] = await pool.query(`DELETE FROM libros WHERE ISBN=(?)`, [ISBN]);
