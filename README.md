@@ -22,4 +22,4 @@ Los campos del modelo Libro son:
 **-------------------------------------------------------------------------------------------------**
 
 
-![Libreria API](libros.jpg)
+![Libreria API](src/libros.jpg)
